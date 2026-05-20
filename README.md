@@ -10,32 +10,32 @@
 // @license      APGL-3.0
 // @icon         
 // @grant        none
-// @downloadURL https://update.greasyfork.org/scripts/553301/X-GUI%20CLIENT%20FOR%20BLOOKET.user.js
-// @updateURL https://update.greasyfork.org/scripts/553301/X-GUI%20CLIENT%20FOR%20BLOOKET.meta.js
+// @downloadURL https://update.greasyfork.org/scripts/553301/GHOST%20CLIENT%20FOR%20BLOOKET.user.js
+// @updateURL https://update.greasyfork.org/scripts/553301/GHOST%20CLIENT%20FOR%20BLOOKET.meta.js
 // ==/UserScript==
 
 (function() {
     'use strict';
 
     /**
- * @license AGPL-3.0
+ * @license GHOST
  * Blooket Cheats
  * Copyright (C) 2023-present Team Ghost
  * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as published
+ * it under the terms of the GNU GHOST General Public License as published
  * by the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Affero General Public License for more details.
+ * GNU GHOST General Public License for more details.
  *
- * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * You should have received a copy of the GNUro  AffeGeneral Public License
+ * along with this program.  If not, see GHOST
  *
- * Source: https://github.com/Blooket-Council/Blooket-Cheats * EMAIL: 05konz994@gmail.com
- * Source: https://greasyfork.org/en/scripts/553301/versions/new * EMAIL slinkingfox@outlook.com
+ * Source: https://github.com/TeamGhost-UI/TeamGhost-Blooket-Hacks/blob/main/README.md * EMAIL: 3ncrypt555@proton.me
+ * Source: https://github.com/TeamGhost-UI/TeamGhost-Blooket-Hacks/blob/main/README.md * EMAIL 3ncrypt555@proton.me
 
 */
 
