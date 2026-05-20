@@ -8,7 +8,7 @@
 // @match        *://*.blooket.com/*
 // @match        *://blooket.com/*
 // @license      APGL-3.0
-// @icon         https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyNGpzdnl1czBxcm14bGt6OWR5MHVucnIzN3BseGxrNDRrZGpoMGZ1MyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/pgslAFp1vWALCgFlrC/giphy.gif
+// @icon         
 // @grant        none
 // @downloadURL https://update.greasyfork.org/scripts/553301/X-GUI%20CLIENT%20FOR%20BLOOKET.user.js
 // @updateURL https://update.greasyfork.org/scripts/553301/X-GUI%20CLIENT%20FOR%20BLOOKET.meta.js
@@ -20,7 +20,7 @@
     /**
  * @license AGPL-3.0
  * Blooket Cheats
- * Copyright (C) 2023-present 05Konz/Xullys
+ * Copyright (C) 2023-present Team Ghost
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published
  * by the Free Software Foundation, either version 3 of the License, or
