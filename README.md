@@ -1,16 +1,18 @@
+
+
 // ==UserScript==
 // @name         GHOST CLIENT FOR BLOOKET
 // @namespace    http://tampermonkey.net/
-// @version      5.20x
+// @version      6.40x
 // @description  NOT PATCHED ANYMORE, THE BEST GUI ON THE WEB! ADVANCED ANTIBAN AND TONS OF FEATURES {CHEAT} {HACK} {CLIENT}
 // @author       You
 // @run-at       document-end
 // @match        *://*.blooket.com/*
 // @match        *://blooket.com/*
 // @license      APGL-3.0
-// @icon         
+// @icon         https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyNGpzdnl1czBxcm14bGt6OWR5MHVucnIzN3BseGxrNDRrZGpoMGZ1MyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/pgslAFp1vWALCgFlrC/giphy.gif
 // @grant        none
-// @downloadURL https://update.greasyfork.org/scripts/553301/GHOST%20CLIENT%20FOR%20BLOOKET.user.js
+// @downloadURL https://update.greasyfork.org/scriptss/553301/GHOST%20CLIENT%20FOR%20BLOOKET.user.js
 // @updateURL https://update.greasyfork.org/scripts/553301/GHOST%20CLIENT%20FOR%20BLOOKET.meta.js
 // ==/UserScript==
 
@@ -18,29 +20,28 @@
     'use strict';
 
     /**
- * @license GHOST
+ * @license AGPL-3.0
  * Blooket Cheats
- * Copyright (C) 2023-present Team Ghost
+ * Copyright (C) 2023-present CalebGhost
  * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU GHOST General Public License as published
+ * it under the terms of the GNU Affero General Public License as published
  * by the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU GHOST General Public License for more details.
+ * GNU Affero General Public License for more details.
  *
- * You should have received a copy of the GNUro  AffeGeneral Public License
- * along with this program.  If not, see GHOST
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
- * Source: https://github.com/TeamGhost-UI/TeamGhost-Blooket-Hacks/blob/main/README.md * EMAIL: 3ncrypt555@proton.me
- * Source: https://github.com/TeamGhost-UI/TeamGhost-Blooket-Hacks/blob/main/README.md * EMAIL 3ncrypt555@proton.me
+ * Source: https://github.com/Blooket-Council/Blooket-Cheats * EMAIL: 3ncrypt555@proton.me
+ * Source: https://greasyfork.org/en/scripts/553301/versions/new * EMAIL 3ncrypt555@proton.me
 
 */
 
 /* THE UPDATE CHECKER IS ADDED DURING COMMIT PREP, THERE MAY BE REDUNDANT CODE, DO NOT TOUCH */
-
 (() => {
     let iframe = document.querySelector("iframe");
     if (!iframe) {
@@ -106,12 +107,12 @@
           transition: left 0.3s, background 0.3s;
         " id="ghost_knob"></div>
       </div>
-      Don't show again on all Blooket pages
+      Don't show again on all Blooket pages 😝
     </label>
   `;
 
-  const switchEl = box.querySelector("#ghost_switch");
-  const knob = box.querySelector("#ghost_knob");
+  const switchEl = box.querySelector("#xgui_switch");
+  const knob = box.querySelector("#xgui_knob");
   let checked = false;
 
   switchEl.onclick = () => {
@@ -163,7 +164,7 @@
 })();
 
     }
-    /* By GHOST */
+    /* By CalebGhost */
     if (window.fetch.call.toString() == 'function call() { [native code] }') {
         const call = window.fetch.call;
         window.fetch.call = function () {
@@ -173,7 +174,7 @@
     const timeProcessed = 1747005941679;
     let latestProcess = -1;
     const cheat = (async () => {
-        const versionName = "5.20x";
+        const versionName = "6.40x";
         const gui = document.createElement("div");
         Object.assign(gui.style, {
             top: window.innerHeight / 2 - 250 + "px",
@@ -191,7 +192,7 @@
         };
 
         let settings,
-            settingsKey = "ghost.BenIsASillyGoose";
+            settingsKey = "KGUI.BenIsASillyGoose";
         const Settings = {
             data: null,
             setItem(k, v) {
@@ -228,6 +229,7 @@
         const classes = {},
             datasets = {};
         styles.innerHTML =
+
             "@import url('https://fonts.googleapis.com/css?family=Titan+One');\n@import url('https://fonts.googleapis.com/css?family=Nunito');" +
             `.bigTextContainer,.version{align-items:center;user-select:none}.cheatsList>div,.settingsPage>div{padding:5px 10px}.gamemode,.gui,.leaderboardList,.sidebar{box-sizing:border-box}.controls>div,.credit,.pathText,.runCheat,.sidebarPath,.version{user-select:none}.noScroll::-webkit-scrollbar{display:none}.noScroll{-ms-overflow-style:none;scrollbar-width:none}.gui {
   position: fixed;
@@ -274,7 +276,17 @@
     box-shadow: 0 0 10px var(--highlight);
   }
 }
-.controls,.credit,.gamemodesList,.guiContent,.guiTopBar,.sidebar,.sidebarShadow,.version{position:absolute}.sidebarShadow{inset:0;background:#000;opacity:0%;pointer-events:none;transition:.2s;z-index:9}.controls>div,.guiContent,.sidebar,select[data-type] option{background:var(--background2)}.sidebarShadow:has(~ .sidebar:hover){opacity:40%}.credit{bottom:0;left:0;right:0;height:0;transition:.1s;overflow:hidden;text-align:center}.sidebar{top:0;left:0;height:100%;width:50px;transition:.2s 0.1s;z-index:10;overflow-x:hidden;padding-bottom:30px}.sidebar:hover{width:200px;transition-delay:0s}.sidebar:hover>.credit{height:25px;transition:.4s 0.2s}.guiContent{inset:20px;left:70px;top:40px;z-index:1;padding-top:32px}.guiTopBar{z-index:1;top:0;left:50px;right:0;height:25px}.version{top:0;left:0;margin-inline:10px;color:#888;font-size:.9em;letter-spacing:.5px;height:100%;display:flex}.controls{top:0;right:0;display:grid;grid-template-columns:1fr 1fr 1fr;height:25px;width:122px;gap:1px;border:1px solid var(--background);z-index:2}.controls>div{display:grid;place-items:center;font-weight:100}.closeControl{transition:.1s}.closeControl:hover{background:red}.creditsPage,.gamemodesPage,.searchPage{position:absolute;inset:0;top:32px}.gamemodesList{display:grid;gap:0 30px;padding-inline:30px;margin-top:0;padding-top:15px;margin-bottom:0;grid-template-columns:1fr 1fr;overflow-y:scroll;inset:0}.leaderboardPage,.logsPage{inset:10px;position:absolute}.pathText{position:absolute;top:40px;left:70px;right:20px;z-index:3;padding:7px 10px;height:22px}.clearLogsButton,.refreshControl{z-index:5;place-items:center;cursor:pointer}.leaderboardPage{top:42px}.leaderboardList{list-style:none;margin:0;padding:20px 40px 10px;height:100%;overflow:scroll;font-size:1.5em}.logsPage{top:37px;background:#000d;border-radius:2.5px}.logMessages{list-style:none;margin:10px;padding:0;display:flex;flex-direction:column-reverse;overflow-y:scroll;word-wrap:break-word;position:absolute;inset:0}.clearLogsButton{position:absolute;top:5px;right:5px;width:25px;height:25px;display:grid;scale:-1 1 1;transition:.2s}.searchbarHolder{display:flex;outline:2px solid var(--highlight);margin:10px 20px;height:30px;font-size:2em}.searchbarInput{outline:0;border:none;background:0 0;color:#fff;flex:1;font-size:.5em;font-family:Nunito;padding-inline:5px}.gamemode,.settingsPage>div{border-radius:2.5px;background:var(--background)}.searchbarButton{color:#fff;font-size:.6em;aspect-ratio:1/1;height:30px;display:grid;place-items:center;cursor:pointer}.bigText,.bigTextContainer{height:50px;width:200px;font-family:Titan One}.searchResults{position:absolute;inset:0;top:45px;padding-inline:20px;overflow-y:scroll}.favoritesPage,.settingsPage{inset:0;top:32px;overflow-y:scroll;position:absolute}.noResult{margin:20px 10px;font-size:.85em}.clearLogsButton:hover,.licenseMessage{font-size:1.25em}.favoritesPage{padding-block:10px;padding-inline:20px}.licenseMessage{font-weight:900;padding-inline:20px;margin-top:10px}.copyrightTag{font-size:.7em;font-weight:200;position:absolute;bottom:0;left:0;padding:5px 8px}.codingCredits,.creditLinks,.uploadDates{list-style:none;padding-inline:20px;margin-block:16px}.settingsPage{padding:10px;display:flex;flex-direction:column;gap:10px}.sidebarPaths{display:flex;flex-direction:column;width:200px}.bigTextContainer{display:flex;font-size:2em;margin-block:10px;transition:font-size .2s .1s,margin-block .2s .1s}.bigText{display:flex;align-items:center;justify-content:center}.refreshControl{position:absolute;top:45px;right:25px;width:25px;height:25px;display:grid}.gamemode{width:100%;height:200px;margin-bottom:30px;cursor:pointer;display:flex;justify-content:center;align-items:center;padding-top:10px;position:relative;overflow:hidden;padding-bottom:35px;transition:.4s}.contentPage,.gamemode>div{position:absolute;bottom:0}.gamemode:hover{box-shadow:0 0 10px var(--highlight);transition:.2s}.gamemode>img{width:85%;max-width:100%;max-height:100%}.gamemode>div{left:0;right:0;height:25px;background:var(--highlight);display:flex;justify-content:center;align-items:center;box-shadow:0 -5px 5px #0004;font-weight:800;font-size:1.1em;transition:.25s}.contentPage{inset-inline:0;top:35px}.cheatsList{display:flex;flex-direction:column;height:100%;overflow-y:scroll;padding-inline:10px}.cheatToggle,.cheatToggle>.toggleTrigger,.runCheat{height:35px;border-radius:2.5px}.cheatsList>div{display:grid;margin-bottom:10px;position:relative;background:var(--background);border-radius:2.5px}.cheatInfo,.cheatInputs,.cheatName,.cheatTop,.logMessage>span,.runCheat,.sidebarPath,.sidebarPath>i{display:flex}.cheatInfo{flex-direction:column;flex:1}.cheatName{font-size:1.5em;font-weight:700}.cheatDescription{font-size:.8em;margin-right:25px}.runCheat{--buttonColor:var(--highlight);width:20%;background:var(--buttonColor);margin-block:auto;cursor:pointer;align-items:center;justify-content:center;font-weight:800;transition:.5s;color:#fff!important}.runCheat:hover{box-shadow:0 0 10px 0 var(--buttonColor);transition:.3s}.runCheat:active{box-shadow:0 0 0 0 var(--buttonColor);transition:50ms}.cheatInputs{margin:5px 0 5px 5px;flex-direction:column;gap:5px}.searchResult,.standing{margin-bottom:10px;transition:.2s}.creditsPage>ul>li>strong,.logMessage img,.standingBlook{margin-right:5px}.cheatInputs>div{display:flex;flex-direction:row;font-size:.8rem;color:var(--highlight);font-weight:700;align-items:center}.cheatInputs>div>span{flex:1}.cheatToggle{width:20%;background:var(--highlight2);margin-block:auto;cursor:pointer;position:relative}.cheatToggle>.toggleTrigger{width:45px;position:absolute;top:0;left:0;background:var(--highlight);pointer-events:none;transition:left .2s,box-shadow .5s;z-index:1}.cheatToggle:hover>.toggleTrigger{box-shadow:0 0 10px 0 var(--highlight);transition:left .2s,box-shadow .2s}.toggleTrigger.active{left:calc(100% - 45px)}.toggleColor{position:absolute;inset:10px 20px;background:rgb(from var(--toggleOff) r g b / 25%);border-radius:2.5px;transition:.2s}.toggleTrigger.active+.toggleColor{background:rgb(from var(--toggleOn) r g b / 25%)}input[data-type],select[data-type]{width:20%;height:25px;outline:0;border:2px solid var(--highlight);box-sizing:border-box;background:0 0;color:#fff;font-size:.9em;padding-left:5px;font-family:Nunito;border-radius:2px;font-weight:800}.logo,.sidebarPath>i{width:50px;height:50px}select[data-type]{-webkit-appearance:none;-moz-appearance:none;text-indent:1px;text-overflow:''}input::placeholder{color:rgb(from var(--textColor) r g b / 50%)}input[data-type]::-webkit-inner-spin-button,input[data-type]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}input[data-type][type=number]{-moz-appearance:textfield}select[data-type] option{border-radius:0}select[data-type]::-ms-expand{display:none}.sidebarPath{align-items:center;cursor:pointer;transition:.2s 0.1s}.searchResult:hover,.sidebarPath:hover{color:var(--highlight);text-shadow:0 0 5px var(--highlight)}.sidebarPath>i{justify-content:center;align-items:center;font-size:1.5em}.sidebarPath>span{padding-left:5px}.sidebar:hover .sidebarPath{padding-left:20px;transition-delay:0s}.logo{left:0;transition:left .2s .1s;display:grid;place-items:center;min-width:50px;position:absolute}.sidebar:hover .logo{left:28px;transition:left .2s}.bigText{margin-top:-150px;transition:margin-top .1s}.sidebar:hover .bigText{margin-top:0;transition:margin-top .4s 0.1s}.sidebar:hover .bigTextContainer{font-size:2.5em;margin-block:20px;transition:font-size .2s,margin-block .2s}/* === Glowing title effect === */
+button,
+.runCheat,
+.cheatToggle,
+.toggleTrigger,
+.controls > div,
+.searchbarButton {
+    border-radius: 12px !important;
+}
+
+.controls,.credit,.gamemodesList,.guiContent,.guiTopBar,.sidebar,.sidebarShadow,.version{position:absolute}.sidebarShadow{inset:0;background:#000;opacity:0%;pointer-events:none;transition:.2s;z-index:9}.controls>div,.guiContent,.sidebar,select[data-type] option{background:var(--background2)}.sidebarShadow:has(~ .sidebar:hover){opacity:40%}.credit{bottom:0;left:0;right:0;height:0;transition:.1s;overflow:hidden;text-align:center}.sidebar{top:0;left:0;height:100%;width:50px;transition:.2s 0.1s;z-index:10;overflow-x:hidden;overflow-y:hidden;padding-bottom:30px}
+.sidebar:hover{width:200px;transition-delay:0s}.sidebar:hover>.credit{height:25px;transition:.4s 0.2s}.guiContent{inset:20px;left:70px;top:40px;z-index:1;padding-top:32px}.guiTopBar{z-index:1;top:0;left:50px;right:0;height:25px}.version{top:0;left:0;margin-inline:10px;color:#888;font-size:.9em;letter-spacing:.5px;height:100%;display:flex}.controls{top:0;right:0;display:grid;grid-template-columns:1fr 1fr 1fr;height:25px;width:122px;gap:1px;border:1px solid var(--background);z-index:2}.controls>div{display:grid;place-items:center;font-weight:100}.closeControl{transition:.1s}.closeControl:hover{background:red}.creditsPage,.gamemodesPage,.searchPage{position:absolute;inset:0;top:32px}.gamemodesList{display:grid;gap:0 30px;padding-inline:30px;margin-top:0;padding-top:15px;margin-bottom:0;grid-template-columns:1fr 1fr;overflow-y:scroll;inset:0}.leaderboardPage,.logsPage{inset:10px;position:absolute}.pathText{position:absolute;top:40px;left:70px;right:20px;z-index:3;padding:7px 10px;height:22px}.clearLogsButton,.refreshControl{z-index:5;place-items:center;cursor:pointer}.leaderboardPage{top:42px}.leaderboardList{list-style:none;margin:0;padding:20px 40px 10px;height:100%;overflow:scroll;font-size:1.5em}.logsPage{top:37px;background:#000d;border-radius:2.5px}.logMessages{list-style:none;margin:10px;padding:0;display:flex;flex-direction:column-reverse;overflow-y:scroll;word-wrap:break-word;position:absolute;inset:0}.clearLogsButton{position:absolute;top:5px;right:5px;width:25px;height:25px;display:grid;scale:-1 1 1;transition:.2s}.searchbarHolder{display:flex;outline:2px solid var(--highlight);margin:10px 20px;height:30px;font-size:2em}.searchbarInput{outline:0;border:none;background:0 0;color:#fff;flex:1;font-size:.5em;font-family:Nunito;padding-inline:5px}.gamemode,.settingsPage>div{border-radius:2.5px;background:var(--background)}.searchbarButton{color:#fff;font-size:.6em;aspect-ratio:1/1;height:30px;display:grid;place-items:center;cursor:pointer}.bigText,.bigTextContainer{height:50px;width:200px;font-family:Titan One}.searchResults{position:absolute;inset:0;top:45px;padding-inline:20px;overflow-y:scroll}.favoritesPage,.settingsPage{inset:0;top:32px;overflow-y:scroll;position:absolute}.noResult{margin:20px 10px;font-size:.85em}.clearLogsButton:hover,.licenseMessage{font-size:1.25em}.favoritesPage{padding-block:10px;padding-inline:20px}.licenseMessage{font-weight:900;padding-inline:20px;margin-top:10px}.copyrightTag{font-size:.7em;font-weight:200;position:absolute;bottom:0;left:0;padding:5px 8px}.codingCredits,.creditLinks,.uploadDates{list-style:none;padding-inline:20px;margin-block:16px}.settingsPage{padding:10px;display:flex;flex-direction:column;gap:10px}.sidebarPaths{display:flex;flex-direction:column;width:200px}.bigTextContainer{display:flex;font-size:2em;margin-block:10px;transition:font-size .2s .1s,margin-block .2s .1s}.bigText{display:flex;align-items:center;justify-content:center}.refreshControl{position:absolute;top:45px;right:25px;width:25px;height:25px;display:grid}.gamemode{width:100%;height:200px;margin-bottom:30px;cursor:pointer;display:flex;justify-content:center;align-items:center;padding-top:10px;position:relative;overflow:hidden;padding-bottom:35px;transition:.4s}.contentPage,.gamemode>div{position:absolute;bottom:0}.gamemode:hover{box-shadow:0 0 10px var(--highlight);transition:.2s}.gamemode>img{width:85%;max-width:100%;max-height:100%}.gamemode>div{left:0;right:0;height:25px;background:var(--highlight);display:flex;justify-content:center;align-items:center;box-shadow:0 -5px 5px #0004;font-weight:800;font-size:1.1em;transition:.25s}.contentPage{inset-inline:0;top:35px}.cheatsList{display:flex;flex-direction:column;height:100%;overflow-y:scroll;padding-inline:10px}.cheatToggle,.cheatToggle>.toggleTrigger,.runCheat{height:35px;border-radius:2.5px}.cheatsList>div{display:grid;margin-bottom:10px;position:relative;background:var(--background);border-radius:2.5px}.cheatInfo,.cheatInputs,.cheatName,.cheatTop,.logMessage>span,.runCheat,.sidebarPath,.sidebarPath>i{display:flex}.cheatInfo{flex-direction:column;flex:1}.cheatName{font-size:1.5em;font-weight:700}.cheatDescription{font-size:.8em;margin-right:25px}.runCheat{--buttonColor:var(--highlight);width:20%;background:var(--buttonColor);margin-block:auto;cursor:pointer;align-items:center;justify-content:center;font-weight:800;transition:.5s;color:#fff!important}.runCheat:hover{box-shadow:0 0 10px 0 var(--buttonColor);transition:.3s}.runCheat:active{box-shadow:0 0 0 0 var(--buttonColor);transition:50ms}.cheatInputs{margin:5px 0 5px 5px;flex-direction:column;gap:5px}.searchResult,.standing{margin-bottom:10px;transition:.2s}.creditsPage>ul>li>strong,.logMessage img,.standingBlook{margin-right:5px}.cheatInputs>div{display:flex;flex-direction:row;font-size:.8rem;color:var(--highlight);font-weight:700;align-items:center}.cheatInputs>div>span{flex:1}.cheatToggle{width:20%;background:var(--highlight2);margin-block:auto;cursor:pointer;position:relative}.cheatToggle>.toggleTrigger{width:45px;position:absolute;top:0;left:0;background:var(--highlight);pointer-events:none;transition:left .2s,box-shadow .5s;z-index:1}.cheatToggle:hover>.toggleTrigger{box-shadow:0 0 10px 0 var(--highlight);transition:left .2s,box-shadow .2s}.toggleTrigger.active{left:calc(100% - 45px)}.toggleColor{position:absolute;inset:10px 20px;background:rgb(from var(--toggleOff) r g b / 25%);border-radius:2.5px;transition:.2s}.toggleTrigger.active+.toggleColor{background:rgb(from var(--toggleOn) r g b / 25%)}input[data-type],select[data-type]{width:20%;height:25px;outline:0;border:2px solid var(--highlight);box-sizing:border-box;background:0 0;color:#fff;font-size:.9em;padding-left:5px;font-family:Nunito;border-radius:2px;font-weight:800}.logo,.sidebarPath>i{width:50px;height:50px}select[data-type]{-webkit-appearance:none;-moz-appearance:none;text-indent:1px;text-overflow:''}input::placeholder{color:rgb(from var(--textColor) r g b / 50%)}input[data-type]::-webkit-inner-spin-button,input[data-type]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}input[data-type][type=number]{-moz-appearance:textfield}select[data-type] option{border-radius:0}select[data-type]::-ms-expand{display:none}.sidebarPath{align-items:center;cursor:pointer;transition:.2s 0.1s}.searchResult:hover,.sidebarPath:hover{color:var(--highlight);text-shadow:0 0 5px var(--highlight)}.sidebarPath>i{justify-content:center;align-items:center;font-size:1.5em}.sidebarPath>span{padding-left:5px}.sidebar:hover .sidebarPath{padding-left:20px;transition-delay:0s}.logo{left:0;transition:left .2s .1s;display:grid;place-items:center;min-width:50px;position:absolute}.sidebar:hover .logo{left:28px;transition:left .2s}.bigText{margin-top:-150px;transition:margin-top .1s}.sidebar:hover .bigText{margin-top:0;transition:margin-top .4s 0.1s}.sidebar:hover .bigTextContainer{font-size:2.5em;margin-block:20px;transition:font-size .2s,margin-block .2s}/* === Glowing title effect === */
 .bigText {
   text-shadow: 0 0 10px var(--highlight), 0 0 20px var(--highlight2);
   animation: glowPulse 2s ease-in-out infinite alternate;
@@ -290,7 +302,22 @@
 
         gui.className = classes.gui;
 
+
         gui.append(styles);
+        function roundGamemodeBoxes() {
+    // Select only the gamemode tiles via the obfuscated class name
+    const gamemodes = gui.querySelectorAll("." + classes.gamemode);
+
+    gamemodes.forEach(tile => {
+        tile.style.borderRadius = "15px";     // clean rounded edges
+        tile.style.overflow = "hidden";       // keeps images clipped cleanly
+    });
+}
+
+// delay ensures elements exist
+setTimeout(roundGamemodeBoxes, 50);
+
+
         const sidebarShadow = document.createElement("div");
         sidebarShadow.className = classes.sidebarShadow;
 
@@ -298,7 +325,7 @@
         const credit = document.createElement("div");
         credit.className = classes.credit;
 
-        credit.innerText = "Created by TEAM GHOST";
+
         const sidebar = document.createElement("div");
         sidebar.className = classes.sidebar;
 
@@ -311,85 +338,192 @@
 
         const version = document.createElement("span");
         version.className = classes.version;
-        version.innerText = "CalebGHOST - GHOST " + versionName;
+        version.innerText = "CalebGhost [sup neymar] - GHOST " + versionName;
         guiTopBar.append(version);
 
         const controls = document.createElement("div");
-        controls.className = classes.controls;
+controls.className = classes.controls;
 
-        const moveControl = document.createElement("div");
-        moveControl.style.cursor = "grab";
+// Move Control (<-->)
+const moveControl = document.createElement("div");
+moveControl.style.cursor = "grab";
+moveControl.innerHTML = `
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+  <path d="M4 12l4-4v3h8V8l4 4-4 4v-3H8v3z"/>
+</svg>`;
 
-        moveControl.innerHTML = '<i class="fas fa-arrows-alt-h" style="line-height: 1"></i>';
-        const minimizeControl = document.createElement("div");
+// Minimize Control (-)
+const minimizeControl = document.createElement("div");
+let hideAnimation = false;
+minimizeControl.minimized = false;
+const minimizeSVG = `
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+  <rect x="4" y="11" width="16" height="2"/>
+</svg>`;
 
-        minimizeControl.innerHTML = '<i class="fas fa-compress" style="line-height: 1"></i>';
-        let hideAnimation = false;
-        minimizeControl.onclick = () => {
-            if (hideAnimation == (hideAnimation = true)) return;
-            const hidden = minimizeControl.minimized;
-            if (hidden) {
-                minimizeControl.innerHTML = '<i class="fas fa-compress" style="line-height: 1"></i>';
-                gui.animate(
-                    [
-                        {
-                            width: "122px",
-                            height: "27px",
-                            left: gui.style.left,
-                        },
-                        {
-                            width: "800px",
-                            height: "500px",
-                            left: `${parseInt(gui.style.left) + (hidden ? -678 : 678)}px`,
-                        },
-                    ],
-                    { duration: 200, easing: "ease" }
-                );
-                gui.style.width = "800px";
-                gui.style.height = "500px";
-            } else {
-                minimizeControl.innerHTML = '<i class="fas fa-expand" style="line-height: 1"></i>';
-                gui.animate(
-                    [
-                        {
-                            width: "800px",
-                            height: "500px",
-                            left: gui.style.left,
-                        },
-                        {
-                            width: "122px",
-                            height: "27px",
-                            left: `${parseInt(gui.style.left) + (hidden ? -678 : 678)}px`,
-                        },
-                    ],
-                    { duration: 200, easing: "ease" }
-                );
-                gui.style.width = "122px";
-                gui.style.height = "27px";
+// Fullscreen Control (4 edges)
+const fullscreenSVG = `
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+  <path d="M4 4h6v2H6v4H4V4zm10 0h6v6h-2V6h-4V4zm6 10v6h-6v-2h4v-4h2zm-16 6h6v-2H6v-4H4v6z"/>
+</svg>`;
+
+minimizeControl.innerHTML = minimizeSVG;
+
+minimizeControl.onclick = () => {
+    if (hideAnimation == (hideAnimation = true)) return;
+    const hidden = minimizeControl.minimized;
+
+    if (hidden) {
+        minimizeControl.innerHTML = minimizeSVG;
+        gui.animate(
+            [
+                { width: "122px", height: "27px", left: gui.style.left },
+                { width: "800px", height: "500px", left: `${parseInt(gui.style.left) - 678}px` },
+            ],
+            { duration: 200, easing: "ease" }
+        );
+        gui.style.width = "800px";
+        gui.style.height = "500px";
+    } else {
+        minimizeControl.innerHTML = fullscreenSVG;
+        gui.animate(
+            [
+                { width: "800px", height: "500px", left: gui.style.left },
+                { width: "122px", height: "27px", left: `${parseInt(gui.style.left) + 678}px` },
+            ],
+            { duration: 200, easing: "ease" }
+        );
+        gui.style.width = "122px";
+        gui.style.height = "27px";
+    }
+
+    setTimeout(() => {
+        for (let child of [...gui.children]) {
+            if (child === controls) continue;
+            if (hidden) child.style.display = child.style._display;
+            else {
+                child.style._display = child.style.display;
+                child.style.display = "none";
             }
-            setTimeout(
-                () => {
-                    for (let child of [...gui.children]) {
-                        if (child == controls) continue;
-                        if (hidden) child.style.display = child.style._display;
-                        else {
-                            child.style._display = child.style.display;
-                            child.style.display = "none";
-                        }
-                    }
-                    hideAnimation = false;
-                },
-                hidden ? 200 : 0
-            );
-            gui.style.left = `${parseInt(gui.style.left) + (hidden ? -678 : 678)}px`;
-            minimizeControl.minimized = !hidden;
-        };
-        const closeControl = document.createElement("div");
-        closeControl.className = classes.closeControl;
-        closeControl.innerHTML = '<i class="fas fa-times" style="line-height: 1"></i>';
-        closeControl.onclick = () => gui.remove();
-        controls.append(moveControl, minimizeControl, closeControl);
-        dragElement(moveControl, gui);
+        }
+        hideAnimation = false;
+    }, hidden ? 200 : 0);
+
+    gui.style.left = `${parseInt(gui.style.left) + (hidden ? -678 : 678)}px`;
+    minimizeControl.minimized = !hidden;
+};
+
+// Close Control (X)
+const closeControl = document.createElement("div");
+closeControl.className = classes.closeControl;
+closeControl.innerHTML = `
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+  <line x1="4" y1="4" x2="20" y2="20" stroke="currentColor" stroke-width="2"/>
+  <line x1="20" y1="4" x2="4" y2="20" stroke="currentColor" stroke-width="2"/>
+</svg>`;
+closeControl.onclick = () => gui.remove();
+
+controls.append(moveControl, minimizeControl, closeControl);
+       /* === GHOST UNIVERSAL PERSIST v4 (working across all subdomains, never breaks init) === */
+
+(function () {
+
+    const KEY = "ghost_state_v4";
+    const COOKIE_OPTS = "; path=/; domain=.blooket.com; expires=Tue, 19 Jan 2038 03:14:07 GMT";
+    const SHIFT = 678; // your minimize left-shift
+
+    // ---------------------------
+    // COOKIE HELPERS
+    // ---------------------------
+    function saveState(state) {
+        try {
+            document.cookie =
+                KEY + "=" + encodeURIComponent(JSON.stringify(state)) + COOKIE_OPTS;
+        } catch (e) {}
+    }
+
+    function loadState() {
+        try {
+            const m = document.cookie.match(new RegExp(KEY + "=([^;]+)"));
+            return m ? JSON.parse(decodeURIComponent(m[1])) : {};
+        } catch (e) { return {}; }
+    }
+
+    // ---------------------------
+    // SAFE SAVE (always store NON-minimized coords)
+    // ---------------------------
+    function saveNow() {
+        try {
+            const rect = gui.getBoundingClientRect();
+
+            const isMin = minimizeControl?.minimized || false;
+
+            let left = parseInt(gui.style.left) || rect.left;
+            let top = parseInt(gui.style.top) || rect.top;
+
+            // Canonicalize
+            if (isMin) left -= SHIFT;
+
+            saveState({
+                left,
+                top,
+                minimized: isMin
+            });
+        } catch (e) {}
+    }
+
+    // ---------------------------
+    // RESTORE AFTER GUI IS BUILT
+    // ---------------------------
+    (async function restore() {
+
+        // Wait until fully initialized (prevents GUI failing to load)
+        while (!gui || !minimizeControl || !moveControl || gui.children.length < 2) {
+            await new Promise(r => setTimeout(r, 25));
+        }
+
+        const s = loadState();
+        if (!s.left && !s.top) return; // no saved state yet
+
+        // Restore as FULL SIZE FIRST
+        gui.style.width = "800px";
+        gui.style.height = "500px";
+        gui.style.left = s.left + "px";
+        gui.style.top = s.top + "px";
+
+        // Let layout settle
+        await new Promise(r => setTimeout(r, 20));
+
+        // THEN minimize if needed
+        if (s.minimized) {
+            minimizeControl.onclick(); // run real animation
+        }
+
+    })();
+
+
+    // ---------------------------
+    // HOOK SAVE EVENTS
+    // ---------------------------
+
+    // Wrap minimize button
+    const origMin = minimizeControl.onclick;
+    minimizeControl.onclick = function () {
+        origMin();
+        setTimeout(saveNow, 30);
+    };
+
+    // Save after drag
+    document.addEventListener("pointerup", () => setTimeout(saveNow, 30));
+
+    // Save on exit
+    window.addEventListener("beforeunload", saveNow);
+
+})();
+
+
+dragElement(moveControl, gui);
+
 
         const gamemodesPage = document.createElement("div");
         gamemodesPage.className = classes.gamemodesPage;
@@ -734,7 +868,7 @@
                     case "/play/fishing":
                     case "/play/fishing/final":
                     case "/fish/play/landing":
-                        return "fish"; 
+                        return "fish";
                     case "/play/pirate":
                     case "/play/pirate/final":
                     case "/pirate/play/landing":
@@ -903,7 +1037,7 @@
                     },
                     {
                         name: "Highlight Answers",
-                        description: "GHOST easter egg L0L",
+                        description: "shoutout to my boy Neymar!",
                         type: "toggle",
                         enabled: false,
                         data: null,
@@ -967,6 +1101,8 @@
                         },
                     },
                     {
+
+
                         name: "Freeze Leaderboard",
             description: "Freezes the leaderboard on the host's screen",
             type: "toggle",
@@ -991,6 +1127,52 @@
                 }
             }
         }, {
+                    name: "Anti Kick",
+        description: "Prevents the host from kicking you, Although cheats stop working and you can't win.",
+        type: "toggle",
+        enabled: false,
+        data: null,
+        run: function () {
+            const stateNode = getStateNode();
+            const lgc = stateNode?.props?.liveGameController;
+
+            if (!lgc) return alert("Not in a game.");
+
+            if (!this.enabled) {
+                // TURN ON
+                this.enabled = true;
+
+                const playerName = stateNode.props.client.name;
+                const savedBlook = stateNode.props.client.blook;
+
+                this.data = setInterval(() => {
+                    lgc.getDatabaseRef("c").once("value", (snap) => {
+                        const players = snap.val() || {};
+
+                        // Host kicked you → your entry removed
+                        if (!players[playerName]) {
+                            lgc.setVal({
+                                path: `c/${playerName}`,
+                                val: {
+                                    n: playerName,
+                                    b: savedBlook
+                                }
+                            });
+                        }
+                    });
+                }, 500);
+
+            } else {
+                // TURN OFF
+                this.enabled = false;
+                clearInterval(this.data);
+                this.data = null;
+            }
+        }
+    }, {
+
+
+
                         name: "Percent Auto Answer",
                         description: "Answers questions correctly or incorrectly depending on the goal grade given (Disable and re-enable to update goal)",
                         inputs: [
@@ -1093,6 +1275,64 @@
                     loadingPack: !1,
                     openPack: !0,
                     unlockedBlook,
+                    newUnlock: !0,
+                    canOpen: !1
+                });
+                setTimeout(() => stateNode.setState({
+                    canOpen: !0
+                }), 200);
+            }
+        }, {
+            name: "Simulate Pack",
+            description: "Simulates unlocking a pack",
+            inputs: [{
+                name: "Pack",
+                type: "options",
+                options: () => [...document.querySelector("[class*=packsWrapper]")?.children]?.map(e => e.children[0].children[0].alt)
+            }],
+            run: async (packName) => {
+                let i = document.createElement('iframe');
+                document.body.append(i);
+                const alert = i.contentWindow.alert.bind(window);
+                i.remove();
+                if (window.location.pathname !== "/market") {
+                    alert("You must be on the market page to run this cheat!");
+                    return;
+                }
+                const stateNode = Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode;
+                const getProbs = (pack) => (new Promise(res => {
+                    if (!Array.prototype.map2) {
+                        Array.prototype.map2 = Array.prototype.map;
+                    }
+                    Array.prototype.map = function() {
+                        if (typeof this[0]?.[1] == "number") {
+                            res(this);
+                            Array.prototype.map = Array.prototype.map2;
+                        }
+                        return Array.prototype.map2.apply(this, arguments);
+                    }
+                    var a = new(stateNode.constructor)();
+                    a.state.currentPack = pack;
+                    a.render();
+                    res(null);
+                }));
+                async function pickRandom(pack) {
+                    let probs = (await getProbs(pack));
+                    const choice = pickW(probs.map(e => e[1]));
+                    return probs[choice];
+                }
+
+                function pickW(a) {
+                    let v = 0;
+                    let sum = [];
+                    const rand = Math.floor(Math.random() * a.reduce((a, b) => a + b, 0));
+                    a.forEach(e => (sum.push(v), v += e));
+                    return sum.map(e => rand < e).findLastIndex(e => e ? 0 : 1);
+                }
+                stateNode.setState({
+                    loadingPack: !1,
+                    openPack: !0,
+                    unlockedBlook: (await pickRandom(packName))[0],
                     newUnlock: !0,
                     canOpen: !1
                 });
@@ -1395,6 +1635,7 @@
                 alert(`Freed slots: ${freed}`);
             }
         }, {
+
                         name: "Get Daily Rewards",
                         description: "Gets max daily tokens and xp",
                         run: async function () {
@@ -1640,7 +1881,8 @@
             },
             // === START: extras category to add into the 'cheats' object ===
 extras: {
-  img: "https://png.pngtree.com/png-vector/20231116/ourmid/pngtree-the-rise-of-gradient-star-png-image_10450195.png",
+  img: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDI0MCAyNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBvbHlnb24gZmlsbD0iI2ZkZDAyOSIgcG9pbnRzPSIxMjAsMTggMTUxLDk0IDI0MCw5NCAxNjgsMTQ4IDE5NSwyMzAgMTIwLDE4MyA0NSwyMzAgNzIsMTQ4IDAsOTQgODksOTQiLz48L3N2Zz4=",
+
   name: "Extras",
   cheats: [
     {
@@ -1923,6 +2165,27 @@ extras: {
                         },
                     },
                     {
+                        name: "Always Quintuple",
+            description: "Always get quintuple gold",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                let e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+                e._choosePrize ||= e.choosePrize,
+                    this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null, e.choosePrize = e._choosePrize || e.choosePrize) : (this.enabled = !0, this.data = setInterval(() => {
+                        e.choosePrize = function(t) {
+                            e.state.choices[t] = {
+                                    type: "multiply",
+                                    val: 5,
+                                    text: "Quintuple Gold!",
+                                    blook: "Ice Elemental"
+                                },
+                                e._choosePrize(t)
+                        }
+                    }, 50))
+            }
+        }, {
 
                         name: "Auto Choose",
                         description: "Automatically picks the option that would give you the most gold",
@@ -2154,6 +2417,71 @@ extras: {
                 })
             }
         }, {
+            name: "Send Ad Text",
+            description: "Sends a load of text to another player (This will override your blook!)",
+            inputs: [{
+                name: "Player",
+                type: "options",
+                options() {
+                    let {
+                        stateNode: e
+                    } = Object.values(function e(t = document.querySelector("body>div")) {
+                            return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                        }
+                        ())[1].children[0]._owner;
+                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]));
+                }
+            }, {
+                name: "Text"
+            }],
+            run: async function(player, e) {
+                let {
+                    props: t2
+                } = Object.values(function e(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"));
+                    }
+                    ())[1].children[0]._owner.stateNode;
+
+                let repeatedText = `Dog:${Array(500).fill(e).join(' ')}`;
+                t2.client.blook = repeatedText;
+                t2.liveGameController.setVal({
+                    path: `c/${t2.client.name}/b`,
+                    val: repeatedText
+                });
+                t2.liveGameController.setVal({
+                    path: `c/${t2.client.name}/tat`,
+                    val: `${player}:196`
+                });
+            }
+        }, {
+
+    name: "Crash Host (Gold)",
+    description: "Crashes the Host's Game for Gold Quest",
+    inputs: [],
+    run: async function () {
+        // Recursively locate the React stateNode (same structure you use)
+        function getOwner(t = document.querySelector("body>div")) {
+            return Object.values(t)[1]?.children?.[0]?._owner?.stateNode ?
+                t :
+                getOwner(t.querySelector(":scope>div"));
+        }
+
+        let { stateNode } = Object.values(getOwner())[1].children[0]._owner;
+
+        // setv equivalent
+        function setv(args) {
+            stateNode.props.liveGameController.setVal({
+                path: "c/" + stateNode.props.client.name + "/" + args[0],
+                val: args.slice(1).join(" ")
+            });
+        }
+
+        // Crash host
+        setv(["g/t", "t"]);
+    }
+},{
+
+
                         name: "Swap Gold",
                         description: "Swaps gold with someone",
                         inputs: [
@@ -2278,6 +2606,23 @@ extras: {
                 }
             }
         }, {
+            name: "Always Quintuple",
+            description: "Always get quintuple crypto",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                this.enabled ? (this.enabled = !1, clearInterval(this.data), this.data = null) : (this.enabled = !0, this.data = setInterval(() => Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode.setState({
+                    choices: [{
+                        type: "mult",
+                        val: 5,
+                        rate: .075,
+                        blook: "Ice Elemental",
+                        text: "Quintuple Crypto"
+                    }]
+                }), 50))
+            }
+        }, {
                         name: "Always Triple",
                         description: "Always get triple crypto",
                         type: "toggle",
@@ -2295,27 +2640,6 @@ extras: {
                         },
                     },
                     {
-                        name: "Get Player's Password",
-            description: "Shows the password of any player in an alert box",
-            inputs: [{
-                name: "Player",
-                type: "options",
-                options() {
-                    let e = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
-                    return new Promise(t => e.props.liveGameController._liveApp ? e.props.liveGameController.getDatabaseVal("c", e => e && t(Object.keys(e))) : t([]))
-                }
-            }],
-            run: function(player) {
-                let i = document.createElement('iframe');
-                document.body.append(i);
-                const alert = i.contentWindow.alert.bind(window);
-                i.remove();
-                var t = Object.values(document.querySelector("#app>div>div"))[1].children[0]._owner.stateNode;
-                t.props.liveGameController.getDatabaseVal("c", e => {
-                    alert(e?.[player]?.p);
-                });
-            }
-        }, {
                         name: "Always Hack",
             description: "Always get hack",
             type: "toggle",
@@ -2333,6 +2657,87 @@ extras: {
                 }), 50))
             }
         }, {
+            name: "Crash Password",
+            description: "Crashes other players when they attempt to hack you",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                var e = Object.values(function e(t = document.querySelector("#app")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                    }
+                    ())[1].children[0]._owner.stateNode;
+                if (this.enabled)
+                    this.enabled = !1, clearInterval(this.data), this.data = null, e.props.liveGameController.setVal({
+                        path: `c/${e.props.client.name}/p`,
+                        val: e.state?.password
+                    });
+                else {
+                    this.enabled = !0;
+                    let t = () => {
+                        e.props.liveGameController.setVal({
+                            path: `c/${e.props.client.name}/p/toString`,
+                            val: "crash"
+                        })
+                    };
+                    this.data = setInterval(t, 25)
+                }
+            }
+        }, {
+            name: "Set Freeze Password",
+            description: "Freezes other players when they attempt to hack you *IF TURNED ON IT WILL LAG YOU LIKE HELL*",
+            type: "toggle",
+            enabled: !1,
+            data: null,
+            run: function() {
+                const encodedChars = [
+                    '\\u2f9f', '\\u4fff', '\\u4f52', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u0E47', '\\u4FF1', '\\u4FF2'
+                ];
+
+                const chars = encodedChars.map(char => eval(`"${char}"`));
+
+                function makeLongText() {
+                    return new Array(3e+6).fill().map(e => chars[Math.floor(Math.random() * chars.length)]).join("");
+                }
+
+                var t = Object.values(document.querySelector("body div[id] > div > div"))[1].children[0]._owner.stateNode;
+
+                if (this.enabled) {
+                    this.enabled = !1;
+                    clearInterval(this.data);
+                    this.data = null;
+                    t.setState({
+                        password: ''
+                    });
+                    t.props.liveGameController.setVal({
+                        path: "c/".concat(t.props.client.name),
+                        val: {
+                            b: t.props.client.blook,
+                            p: '',
+                            cr: t.state.crypto
+                        }
+                    });
+                } else {
+                    this.enabled = !0;
+                    let lagFunction = () => {
+                        var e = makeLongText();
+                        t.setState({
+                            password: e
+                        });
+                        t.props.liveGameController.setVal({
+                            path: "c/".concat(t.props.client.name),
+                            val: {
+                                b: t.props.client.blook,
+                                p: e,
+                                cr: t.state.crypto
+                            }
+                        });
+                    };
+                    this.data = setInterval(lagFunction, 25);
+                }
+            }
+        }, {
+
 
                         name: "Auto Guess",
                         description: "Automatically guess the correct password",
@@ -2361,6 +2766,200 @@ extras: {
                         },
                     },
                     {
+
+    name: "Crypto Spy Panel",
+    description: "Shows password + crypto for every player in Crypto Hack",
+    type: "button",
+    run: function () {
+
+        if (!location.href.includes("cryptohack")) {
+            return alert("This panel works ONLY in Crypto Hack.");
+        }
+
+        let node;
+        try {
+            node = Object.values(document.querySelector("#app > div > div"))[1]
+                .children[0]?._owner?.stateNode;
+        } catch {
+            return alert("Failed to read game data.");
+        }
+        if (!node) return alert("Could not get stateNode.");
+
+        let lgc = node.props?.liveGameController;
+        if (!lgc) return alert("No liveGameController found.");
+
+        const panel = document.createElement("div");
+        panel.style = `
+            position: fixed; top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            background: #121212;
+            padding: 18px 22px;
+            border-radius: 16px;
+            z-index: 999999;
+            width: 400px;
+            max-height: 80vh;
+            color: white;
+            font-family: 'Nunito', sans-serif;
+            box-shadow: 0 0 25px rgba(0,0,0,0.7);
+            display: flex;
+            flex-direction: column;
+        `;
+
+        panel.innerHTML = `
+            <div style="font-size:22px;font-weight:800;text-align:center;margin-bottom:10px;">
+                🔍 Crypto Spy Panel
+            </div>
+
+            <div style="display:flex;justify-content:center;gap:10px;margin-bottom:10px;">
+                <button id="refresh-crypto-spy" style="
+                    padding:6px 12px;border-radius:8px;border:none;
+                    background:#2b6cb0;color:white;font-size:14px;font-weight:600;cursor:pointer;
+                ">Refresh</button>
+
+                <button id="close-crypto-spy" style="
+                    padding:6px 12px;border-radius:8px;border:none;
+                    background:#d23b3b;color:white;font-size:14px;font-weight:600;cursor:pointer;
+                ">Close</button>
+            </div>
+
+            <div id="crypto-spy-content" style="
+                flex:1;overflow-y:auto;padding-right:4px;
+                font-size:14px;line-height:1.4;
+            ">
+                <div style="opacity:0.6;text-align:center;">Loading player stats...</div>
+            </div>
+        `;
+
+        document.body.appendChild(panel);
+
+        const contentDiv = document.getElementById("crypto-spy-content");
+
+        // ---- FIXED FUNCTION: CORRECT PASSWORD FIELD ----
+        function loadPlayerData() {
+            contentDiv.innerHTML = `<div style="opacity:0.6;text-align:center;">Loading player stats...</div>`;
+
+            lgc.getDatabaseVal("c", data => {
+                if (!data) {
+                    contentDiv.innerHTML = "<div style='text-align:center;color:#aaa;'>No player data found.</div>";
+                    return;
+                }
+
+                let html = "";
+                for (const player in data) {
+                    const p = data[player];
+
+                    // 🔥 Correct password logic (from your working snippet)
+                    let password =
+                        p?.p ??                // Main correct location
+                        p?.Password ??         // Backup
+                        p?.tat?.Password ??    // Older modes
+                        "?";
+
+                    html += `
+                        <div style="
+                            padding:8px 10px;background:#1d1d1d;border-radius:10px;
+                            margin-bottom:6px;display:flex;justify-content:space-between;align-items:center;
+                        ">
+                            <div style="flex:1;min-width:0;">
+                                <div style="font-size:16px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
+                                    ${player}
+                                </div>
+                                <div style="font-size:13px;opacity:0.8;">
+                                    🔑 Password: <b>${password}</b>
+                                </div>
+                            </div>
+                            <div style="font-size:14px;font-weight:700;flex-shrink:0;">
+                                🪙 ${p.cr ?? 0}
+                            </div>
+                        </div>
+                    `;
+                }
+
+                contentDiv.innerHTML = html;
+            });
+        }
+
+        loadPlayerData();
+        document.getElementById("close-crypto-spy").onclick = () => panel.remove();
+        document.getElementById("refresh-crypto-spy").onclick = loadPlayerData;
+    }
+}, {
+    name: "Set Host Screen Text",
+            description: "Makes the whole screen filled with text",
+            inputs: [{
+                name: "Text",
+                type: "text",
+            }],
+            run: function(e) {
+                let t = document.createElement("iframe");
+                document.body.append(t),
+                    window.prompt = t.contentWindow.prompt.bind(window),
+                    t.remove();
+                var a = Object.values(function e(t = document.querySelector("#app")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner.stateNode ? t : e(t.querySelector(":scope>div"))
+                    }
+                    ())[1].children[0]._owner.stateNode;
+                a.props.liveGameController.setVal({
+                    path: `c/${a.props.client.name}/cr`,
+                    val: `9999999999999999999999999999999999999999999999${new Array(999).fill(e).join(" ")}`
+                })
+            }
+        }, {
+
+    name: "Send Ad Text",
+    description: "Sends a load of text to another player (This will override your blook!)",
+    inputs: [
+        {
+            name: "Player",
+            type: "options",
+            options() {
+                let { stateNode: e } = Object.values(
+                    (function find(t = document.querySelector("body>div")) {
+                        return Object.values(t)[1]?.children?.[0]?._owner?.stateNode
+                            ? t
+                            : find(t.querySelector(":scope>div"));
+                    })()
+                )[1].children[0]._owner;
+
+                return new Promise(resolve =>
+                    e.props.liveGameController._liveApp
+                        ? e.props.liveGameController.getDatabaseVal("c", data => data && resolve(Object.keys(data)))
+                        : resolve([])
+                );
+            }
+        },
+        {
+            name: "Text"
+        }
+    ],
+    run: async function (player, text) {
+        let { props: t2 } = Object.values(
+            (function find(t = document.querySelector("body>div")) {
+                return Object.values(t)[1]?.children?.[0]?._owner?.stateNode
+                    ? t
+                    : find(t.querySelector(":scope>div"));
+            })()
+        )[1].children[0]._owner.stateNode;
+
+        // Build repeated message
+        let repeatedText = `Dog:${Array(500).fill(text).join(" ")}`;
+
+        // Override blook + send text to player
+        t2.client.blook = repeatedText;
+        t2.liveGameController.setVal({
+            path: `c/${t2.client.name}/b`,
+            val: repeatedText
+        });
+
+        t2.liveGameController.setVal({
+            path: `c/${t2.client.name}/tat`,
+            val: `${player}:196`
+        });
+    }
+},{
+
+
+
                         name: "Flood Alert Box",
             description: "Makes the alert box filled with text",
             inputs: [{
@@ -2582,6 +3181,284 @@ extras: {
                         },
                     },
                     {
+name: "Set Next Fish",
+            description: "Sets the next fish to catch",
+            inputs: [{
+                name: "Fish",
+                type: "options",
+                options: ["Old Boot", "Waffle", "Two of Spades", "Jellyfish", "Clownfish", "Goldfish", "Frog", "Blizzard Clownfish", "Turtle", "Cat", "Lovely Frog", "Lucky Frog", "Poison Dart Frog", "Seal", "Walrus", "Fairy", "Crab", "Lemon Crab", "Pufferfish", "Blobfish", "Rainbow Jellyfish", "Octopus", "Pirate Pufferfish", "Donut Blobfish", "Crimson Octopus", "Narwhal", "Baby Shark", "Megalodon", "Alien", "Rainbow Narwhal", "UFO", "Santa Claus", "Swamp Monster", "Red Astronaut", "Spooky Pumpkin", "Dragon", "Tim the Alien"]
+            }],
+            run: function(e) {
+                function t() {
+                    return Object.values(document.querySelector("#app > div > div"))[1].children[0]._owner
+                }
+                var a = {
+                        "Old Boot": {
+                            rarity: "Trash",
+                            minWeight: 1,
+                            maxWeight: 10,
+                            tiers: ["F", "D", "C"]
+                        },
+                        Waffle: {
+                            rarity: "Trash",
+                            minWeight: 1,
+                            maxWeight: 10,
+                            tiers: ["F", "D", "C"]
+                        },
+                        "Two of Spades": {
+                            rarity: "Trash",
+                            minWeight: 1,
+                            maxWeight: 10,
+                            tiers: ["F", "D", "C"]
+                        },
+                        Jellyfish: {
+                            rarity: "Easy One",
+                            minWeight: 10,
+                            maxWeight: 25,
+                            tiers: ["D", "C", "B"]
+                        },
+                        Clownfish: {
+                            rarity: "Easy One",
+                            minWeight: 20,
+                            maxWeight: 45,
+                            tiers: ["D", "C", "B"]
+                        },
+                        Goldfish: {
+                            rarity: "Easy One",
+                            minWeight: 30,
+                            maxWeight: 65,
+                            tiers: ["D", "C", "B"]
+                        },
+                        Frog: {
+                            rarity: "Easy One",
+                            minWeight: 50,
+                            maxWeight: 100,
+                            tiers: ["D", "C", "B"]
+                        },
+                        "Blizzard Clownfish": {
+                            rarity: "Great Catch",
+                            minWeight: 75,
+                            maxWeight: 125,
+                            tiers: ["D", "C", "B"]
+                        },
+                        Turtle: {
+                            rarity: "Great Catch",
+                            minWeight: 100,
+                            maxWeight: 150,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        Cat: {
+                            rarity: "Great Catch",
+                            minWeight: 100,
+                            maxWeight: 200,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        "Lovely Frog": {
+                            rarity: "Great Catch",
+                            minWeight: 150,
+                            maxWeight: 350,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        "Lucky Frog": {
+                            rarity: "Great Catch",
+                            minWeight: 200,
+                            maxWeight: 400,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        "Poison Dart Frog": {
+                            rarity: "Great Catch",
+                            minWeight: 250,
+                            maxWeight: 750,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        Seal: {
+                            rarity: "Rare Find",
+                            minWeight: 500,
+                            maxWeight: 1e3,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        Walrus: {
+                            rarity: "Rare Find",
+                            minWeight: 700,
+                            maxWeight: 2200,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        Fairy: {
+                            rarity: "Rare Find",
+                            minWeight: 1500,
+                            maxWeight: 2500,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        Crab: {
+                            rarity: "Rare Find",
+                            minWeight: 1e3,
+                            maxWeight: 3e3,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        "Lemon Crab": {
+                            rarity: "Rare Find",
+                            minWeight: 2e3,
+                            maxWeight: 5e3,
+                            tiers: ["C", "B", "A"]
+                        },
+                        Pufferfish: {
+                            rarity: "Rare Find",
+                            minWeight: 2e3,
+                            maxWeight: 4e3,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        Blobfish: {
+                            rarity: "Rare Find",
+                            minWeight: 3e3,
+                            maxWeight: 5e3,
+                            tiers: ["D", "C", "B", "A"]
+                        },
+                        "Rainbow Jellyfish": {
+                            rarity: "Epic Grab",
+                            minWeight: 7e3,
+                            maxWeight: 1e4,
+                            tiers: ["C", "B", "A"]
+                        },
+                        Octopus: {
+                            rarity: "Epic Grab",
+                            minWeight: 1e4,
+                            maxWeight: 15e3,
+                            tiers: ["C", "B", "A"]
+                        },
+                        "Pirate Pufferfish": {
+                            rarity: "Epic Grab",
+                            minWeight: 12e3,
+                            maxWeight: 2e4,
+                            tiers: ["C", "B", "A"]
+                        },
+                        "Donut Blobfish": {
+                            rarity: "Epic Grab",
+                            minWeight: 13e3,
+                            maxWeight: 25e3,
+                            tiers: ["C", "B", "A"]
+                        },
+                        "Crimson Octopus": {
+                            rarity: "Epic Grab",
+                            minWeight: 15e3,
+                            maxWeight: 3e4,
+                            tiers: ["B", "A"]
+                        },
+                        Narwhal: {
+                            rarity: "Catch of the Day",
+                            minWeight: 25e3,
+                            maxWeight: 5e4,
+                            tiers: ["B", "A", "S"]
+                        },
+                        "Baby Shark": {
+                            rarity: "Catch of the Day",
+                            minWeight: 5e4,
+                            maxWeight: 1e5,
+                            tiers: ["B", "A", "S"]
+                        },
+                        Megalodon: {
+                            rarity: "Catch of the Day",
+                            minWeight: 25e4,
+                            maxWeight: 5e5,
+                            tiers: ["B", "A", "S"]
+                        },
+                        Alien: {
+                            rarity: "Angler's Legend",
+                            minWeight: 5e5,
+                            maxWeight: 7e5,
+                            tiers: ["A", "S"]
+                        },
+                        "Rainbow Narwhal": {
+                            rarity: "Angler's Legend",
+                            minWeight: 75e4,
+                            maxWeight: 1e6,
+                            tiers: ["A", "S", "S+"]
+                        },
+                        UFO: {
+                            rarity: "Angler's Legend",
+                            minWeight: 1e6,
+                            maxWeight: 2e6,
+                            tiers: ["A", "S", "S+"]
+                        },
+                        "Santa Claus": {
+                            rarity: "Angler's Legend",
+                            minWeight: 1e6,
+                            maxWeight: 2e6,
+                            tiers: ["A", "S", "S+"]
+                        },
+                        "Swamp Monster": {
+                            rarity: "Angler's Legend",
+                            minWeight: 1e6,
+                            maxWeight: 2e6,
+                            tiers: ["A", "S", "S+"]
+                        },
+                        "Red Astronaut": {
+                            rarity: "Angler's Legend",
+                            minWeight: 1e6,
+                            maxWeight: 2e6,
+                            tiers: ["A", "S", "S+"]
+                        },
+                        "Spooky Pumpkin": {
+                            rarity: "Angler's Legend",
+                            minWeight: 1e6,
+                            maxWeight: 2e6,
+                            tiers: ["A", "S", "S+"]
+                        },
+                        Dragon: {
+                            rarity: "Angler's Legend",
+                            minWeight: 1e6,
+                            maxWeight: 2e6,
+                            tiers: ["A", "S", "S+"]
+                        },
+                        "Tim the Alien": {
+                            rarity: "Angler's Legend",
+                            minWeight: 15e5,
+                            maxWeight: 25e9,
+                            tiers: ["A", "S", "S+"]
+                        }
+                    },
+                    o = ["Crab", "Jellyfish", "Frog", "Pufferfish", "Octopus", "Narwhal", "Megalodon", "Blobfish", "Baby Shark"];
+                if (!window.functionSet) {
+                    var r = t().stateNode.answerNext;
+                    t().stateNode.answerNext = function() {
+                        if (t().stateNode.state.hackFish) {
+                            var i,
+                                n,
+                                s;
+                            t().stateNode.setState({
+                                    stage: "caught",
+                                    isCast: !1,
+                                    fish: {
+                                        name: i = e,
+                                        rarity: a[i].rarity,
+                                        weight: (n = a[i].minWeight, Math.floor(Math.random() * ((s = a[i].maxWeight) - n) + n)),
+                                        tier: a[i].tiers[Math.floor(Math.random() * a[i].tiers.length)],
+                                        isSpecial: o.includes(i) && 8 > Math.floor(100 * Math.random())
+                                    },
+                                    claimReady: !1
+                                }),
+                                setTimeout(function() {
+                                    t().stateNode.setState({
+                                        claimReady: !0
+                                    })
+                                }, 1600),
+                                t().stateNode.state.hackFish = null
+                        } else
+                            r.apply(this, arguments)
+                    }
+                }
+                window.functionSet = !0,
+                    ! function e(o) {
+                        if (Object.keys(a).includes(o))
+                            t().stateNode.state.hackFish = o;
+                        else {
+                            alert("That fish does not exist!");
+                            return
+                        }
+                    }
+                    (e)
+            }
+        }, {
+                     
                         name: "Set Lure",
                         description: "Sets fishing lure (range 1 - 5)",
                         inputs: [
@@ -4349,29 +5226,346 @@ extras: {
 
         const creditsPage = document.createElement("div");
         creditsPage.className = classes.creditsPage;
+        const mobilePage = document.createElement("div")
+        mobilePage.className = classes.mobilePage;
+
+        // ====================== CLEAN MOBILE MODE SYSTEM (SLEEK + MINIMAL) ===========================
+(function () {
+
+    if (!gui) return;
+
+    const MOBILE_KEY = "GHOST_MOBILE_MODE_ENABLED";
+
+    let enterBtn = null;
+    let exitBtn = null;
+
+    // ====================== CLEAN MOBILE CSS ======================
+    const mobileCSS = document.createElement("style");
+    mobileCSS.innerHTML = `
+        body.xgui-mobile-mode .GHOST-sidebar {
+            width: 70px !important;
+            overflow: hidden !important;
+            padding: 18px 0 !important;
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center !important;
+            justify-content: flex-start !important;
+            gap: 20px !important;
+            transition: 0.25s ease;
+        }
+
+        body.xgui-mobile-mode .X-GHOST-sidebar span {
+            display: none !important;
+        }
+
+        body.xgui-mobile-mode .GHOST-sidebar::-webkit-scrollbar {
+            display: none !important;
+        }
+
+        body.xgui-mobile-mode .GHOST-content {
+            overflow-y: auto !important;
+            max-height: calc(100% - 45px) !important;
+            padding-right: 10px !important;
+            min-width: 0 !important;
+            word-break: break-word !important;
+            transition: 0.25s ease;
+        }
+
+        body.ghost-mobile-mode .setting,
+        body.ghost-mobile-mode .setting-row,
+        body.ghost-mobile-mode .setting > *,
+        body.ghost-mobile-mode .setting-row > * {
+            min-width: 0 !important;
+            max-width: 100% !important;
+            white-space: normal !important;
+            word-break: break-word !important;
+            line-height: 1.3 !important;
+        }
+
+        body.ghost-mobile-mode .setting-row {
+            display: block !important;
+        }
+
+        /* BUTTON STYLE */
+        .ghost-mobile-toggle-btn {
+            margin: 12px;
+            padding: 10px 14px;
+            background: #0d99ff;
+            color: white;
+            font-weight: 700;
+            border-radius: 10px;
+            cursor: pointer;
+            width: fit-content;
+            transition: 0.2s ease;
+            user-select: none;
+        }
+
+        .ghost-mobile-toggle-btn:hover {
+            background: #0c7adc;
+            transform: scale(1.03);
+        }
+
+        .ghost-exit-btn {
+            background: #d33 !important;
+        }
+
+        .ghost-exit-btn:hover {
+            background: #b22 !important;
+        }
+    `;
+    document.head.appendChild(mobileCSS);
+
+    // ====================== ENTER MOBILE MODE ======================
+    function enableMobile() {
+
+        localStorage.setItem(MOBILE_KEY, "true");
+        gui.dataset.mobileMode = "true";
+        document.body.classList.add("xgui-mobile-mode");
+
+        if (!gui._mobileOrig) {
+            gui._mobileOrig = {
+                width: gui.style.width,
+                contentLeft: guiContent.style.left
+            };
+        }
+
+        gui.style.width = "430px";
+        guiContent.style.left = "75px";
+
+        if (bigTextContainer) bigTextContainer.style.display = "none";
+
+        // Remove ENTER button
+        if (enterBtn) enterBtn.style.display = "none";
+
+        // Create EXIT button
+        if (!exitBtn) {
+            exitBtn = document.createElement("div");
+            exitBtn.innerText = "Exit Mobile Mode";
+            exitBtn.className = "xgui-mobile-toggle-btn xgui-exit-btn";
+            exitBtn.onclick = disableMobile;
+            mobilePage.appendChild(exitBtn);
+        } else {
+            exitBtn.style.display = "block";
+        }
+    }
+
+    // ====================== EXIT MOBILE MODE ======================
+    function disableMobile() {
+
+        localStorage.removeItem(MOBILE_KEY);
+        gui.dataset.mobileMode = "false";
+        document.body.classList.remove("xgui-mobile-mode");
+
+        if (gui._mobileOrig) {
+            gui.style.width = gui._mobileOrig.width;
+            guiContent.style.left = gui._mobileOrig.contentLeft;
+        }
+
+        if (bigTextContainer) bigTextContainer.style.display = "";
+
+        if (exitBtn) exitBtn.style.display = "none";
+
+        // Show ENTER button
+        if (enterBtn) {
+            enterBtn.style.display = "block";
+        }
+    }
+
+    // ====================== ADD ENTER BUTTON TO PAGE ======================
+    if (!enterBtn) {
+        enterBtn = document.createElement("div");
+        enterBtn.innerText = "Enter Mobile Mode";
+        enterBtn.className = "xgui-mobile-toggle-btn";
+        enterBtn.onclick = enableMobile;
+        mobilePage.appendChild(enterBtn);
+    }
+
+    // ====================== AUTO LOAD ======================
+    if (localStorage.getItem(MOBILE_KEY) === "true") {
+        setTimeout(() => enableMobile(), 50);
+    }
+
+    // When user clicks the sidebar tab to open mobile page:
+    mobilePage.onPath = function () {
+        if (gui.dataset.mobileMode === "true") {
+            if (exitBtn) exitBtn.style.display = "block";
+            if (enterBtn) enterBtn.style.display = "none";
+        } else {
+            if (enterBtn) enterBtn.style.display = "block";
+            if (exitBtn) exitBtn.style.display = "none";
+        }
+    };
+
+    gui.toggleMobileMode = function () {
+        if (gui.dataset.mobileMode === "true") disableMobile();
+        else enableMobile();
+    };
+
+})();
+
+
+
+       // Create sleek Changelog Page
+const changelogPage = document.createElement("div");
+changelogPage.className = classes.favoritesPage || "favoritesPage";
+Object.assign(changelogPage.style, {
+    display: "flex",
+    flexDirection: "column",
+    gap: "16px",
+    padding: "25px 20px 50px 20px", // <-- add extra bottom padding
+    overflowY: "auto"
+});
+
+
+// Add custom scrollbar style
+const styleEl = document.createElement("style");
+styleEl.textContent = `
+.${classes.favoritesPage || "favoritesPage"}::-webkit-scrollbar {
+  width: 8px;
+}
+.${classes.favoritesPage || "favoritesPage"}::-webkit-scrollbar-thumb {
+  background: var(--highlight2);
+  border-radius: 4px;
+}
+.${classes.favoritesPage || "favoritesPage"}::-webkit-scrollbar-track {
+  background: transparent;
+}`;
+document.head.appendChild(styleEl);
+
+// Title
+const title = document.createElement("div");
+title.className = "bigTextContainer";
+title.innerHTML = `<div class="bigText">📜 Changelog</div>`;
+Object.assign(title.style, {
+    fontSize: "2.2em",
+    fontWeight: "900",
+    textAlign: "center",
+    marginBottom: "15px",
+    textShadow: `0 0 12px var(--highlight), 0 0 24px var(--highlight2)`
+});
+changelogPage.appendChild(title);
+
+// Versions array (30 versions, highest to lowest)
+const versions = [
+  ["Version 6.40x", "UPDATED REFRESH SVG AND ADDED CHEAT", "null"],
+  ["Version 6.30x", "ADDED CHEATS AND UPDATED GUI", "null"],
+  ["Version 6.20x", "ADDED MORE CHEATS+++", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 6.10x", "ADDED WHAT YOU ARE READING RN", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 6.00x", "ADDED MOBILE MODE + A BUNCH MORE CRAP", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 5.90x", "ROUNDED CORNERS", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 5.80x", "UPDATED XTRAS", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 5.70x", "ADDED EXTRAS TAB", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 5.60x", "STOP COMPLAINING (FIXED BUGS)", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 5.50x", "BUGS AND MORE BUGS", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 5.40x", "UPDATED VERSIONNAME VARIABLE", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 5.30x", "UPDATED BLOOKET BOT", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 5.20x", "ADDED REMOVE ALL TAKEN BLOOKS TO THE GLOBAL STATENODE", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 5.10x", "ADDED BLOOKET BOT", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 5.00x", "ADDED FREEZE LEADERBOARD", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 4.90x", "ADDED CHANGE GAME CODE TO FLAPPY BLOOK", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 4.80x", "ADDED CLIENT SIDE FRENZY", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 4.70x", "REMOVED THE . FROM THE TITLE", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 4.60x", "ADDED FLOOD ALERT BOX", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 4.50x", "FIXED SEVERAL BUGS", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 4.40x", "FIXED THE DOUBLE ERROR (SORRY GUYS!)", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 4.30x", "FIXED SPELLING ERROR", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 4.20x", "ADDED USERSCRIPT IMAGE!!!", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 4.10x", "BUGS FIXED (AGAIN)", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 4.00x", "BUGS FIXED", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 3.90x", "FIXED A SPELLING ERROR", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 3.80x", "BUGS", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 3.70x", "ATTEMPTED AN UPDATE BUT FAILED :(", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 3.60x", "DID SOME UI STUFF", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 3.50x", "FIXED A FEW BUS", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 3.40x", "NEW CHEATS ADDED", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 3.30x", "FIXED SUBDOMAIN ISSUE", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 3.20x", "ADDED SIMULATE UNLOCK, ALWAYS HACK, HOST ANY GAMEMODE, BYPASS FILTER, CRASH HOST, STEAL ALL PLAYERS GOLD AND BYPASS JOIN LIMIT", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 3.10x", "ADDED 7 NEW CHEATS", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 3.00x", "BUG FIXED", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 2.90x", "ADDED BYPASS NAME FILTER", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 2.80x", "ADDED 3 NEW CHEATS TO CRYPTO AND GOLD QUEST", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 2.70x", "ADDED WELCOME MESSAGE", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 2.60x", "ADDED GLOW EFFECT TO TITLE", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 2.50x", "REVAMPED COLORS AND UI", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 2.40x", "STARTED WITH NEW COLOR SCHEME", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 2.30x", "FIXED USE ANY BLOOK", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 2.20x", "BUG FIXED", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
+  ["Version 2.10x", "STARTED NEW MENU", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"]
+];
+
+
+
+// Add each version as a sleek card
+versions.forEach(([ver, desc, link]) => {
+    const card = document.createElement("div");
+    Object.assign(card.style, {
+        display: "flex",
+        flexDirection: "column",
+        gap: "6px",
+        padding: "16px 20px",
+        borderRadius: "14px",
+        background: "var(--background2)",
+        boxShadow: "0 5px 20px rgba(0,0,0,0.28)",
+        transition: "transform 0.2s ease, box-shadow 0.2s ease",
+        cursor: "default"
+    });
+    card.onmouseover = () => {
+        card.style.transform = "translateY(-4px)";
+        card.style.boxShadow = "0 10px 30px rgba(0,0,0,0.35)";
+    };
+    card.onmouseleave = () => {
+        card.style.transform = "translateY(0)";
+        card.style.boxShadow = "0 5px 20px rgba(0,0,0,0.28)";
+    };
+
+    const verTitle = document.createElement("span");
+    verTitle.style.fontWeight = "700";
+    verTitle.style.fontSize = "1.2em";
+    verTitle.style.color = "var(--highlight)";
+    verTitle.innerText = ver;
+
+    const verDesc = document.createElement("span");
+    verDesc.style.fontSize = "0.95em";
+    verDesc.style.color = "var(--textColor2)";
+    verDesc.innerText = desc;
+
+
+    card.append(verTitle, verDesc);
+    changelogPage.appendChild(card);
+});
+
+// Append to GUI content
+guiContent.appendChild(changelogPage);
+
+
+
+
+
+
+
 
         const licenseMessage = document.createElement("div");
         licenseMessage.className = classes.licenseMessage;
-        licenseMessage.innerHTML = `<i class="fas fa-file-alt" style="line-height: 1;aspect-ratio: 1 / 1;height: 20px;display: inline-grid;place-items: center;"></i> This script is licensed under <a style="color: var(--highlight);" target="_blank" href="https://www.gnu.org/licenses/agpl-3.0.en.html">AGPL-3.0</a>, read more <a style="color: var(--highlight);" target="_blank" href="https://github.com/Blooket-Council/Blooket-Cheats?tab=readme-ov-file#licensing">here</a>.<br>`;
+        licenseMessage.innerHTML = `<i class="fas fa-file-alt" style="line-height: 1;aspect-ratio: 1 / 1;height: 20px;display: inline-grid;place-items: center;"></i> This script is licensed under <a style="color: var(--highlight);" target="_blank" href="https://www.gnu.org/licenses/agpl-3.0.en.html">AGPL-3.0</a>, read more <a style="color: var(--highlight);" target="_blank" href="https:/.com/Blooket-Council/Blooket-Cheats?tab=readme-ov-file#licensing">here</a>.<br>`;
 
         const copyrightTag = document.createElement("span");
         copyrightTag.className = classes.copyrightTag;
 
-        copyrightTag.innerText = `Copyright © ${new Date().getFullYear()} CalebGHOST`;
+        copyrightTag.innerText = `Copyright © ${new Date().getFullYear()} GHOST`;
 
         const codingCredits = document.createElement("ul");
         codingCredits.className = classes.codingCredits;
 
-        codingCredits.append(createCredit("GUI Design + Creation", "CalebGHOST"));
-        codingCredits.append(createCredit("Anti-Suspend", "CalebGHOST"));
-        codingCredits.append(createCredit("Blooket Cheats", 'CalebGHOST <i class="fas fa-long-arrow-alt-right"></i> <i class="fas fa-long-arrow-alt-right"></i> 05Konz <i class="fas fa-long-arrow-alt-right"></i> Ghost'))
+        codingCredits.append(createCredit("GUI Design + Creation", "CalebGhost"));
+        codingCredits.append(createCredit("Anti-Suspend", "CalebGhost"));
+        codingCredits.append(createCredit("Blooket Cheats", 'gliz <i class="fas fa-long-arrow-alt-right"></i> AnonymousGHOST <i class="fas fa-long-arrow-alt-right"></i> CalebGhost <i class="fas fa-long-arrow-alt-right"></i> AnonymousGHOST'));
 
         const creditLinks = document.createElement("ul");
         creditLinks.className = classes.creditLinks;
 
-        creditLinks.append(createCredit("GHOST", '<a target="_blank" href="https://github.com/Blooket-Council/Blooket-Cheats">Blooket-Council/Blooket-Cheats</a>'));
-        creditLinks.append(createCredit("Gitlab", '<a target="_blank" href="https://gitlab.com/blooket/blooket-cheats">blooket/blooket-cheats</a>'));
-        creditLinks.append(createCredit("GHOST", '<a target="_blank" href="https://greasyfork.org/en/scripts/553301-GHOST-client-for-blooket">GHOST page (Give Me Feedback!)</a>'));
+        creditLinks.append(createCredit("Our Github", '<a target="_blank" href="https://github.com/TeamGhost-UI">GHOST CHEATS/GITHUB</a>'));
+        creditLinks.append(createCredit("Our Website *RELEASED*", '<a target="_blank" href="https://github.com/TeamGhost-UI">More Info/Website</a>'));
+        creditLinks.append(createCredit("Greasyfork", '<a target="_blank" href="https://github.com/TeamGhost-UI">Greasyfork page (Give Me Feedback!)</a>'));
 
         function parseTime(d) {
             const hour = d.getHours() % 12 == 0 ? 12 : d.getHours() % 12;
@@ -4388,20 +5582,19 @@ extras: {
         uploadDates.className = classes.uploadDates;
 
         try {
-            let currentDate = new Date(timeProcessed),
-                latestDate = new Date(latestProcess);
-            uploadDates.append(createCredit("Current GUI Upload Date", parseDate(currentDate)));
-            if (latestProcess != -1) uploadDates.append(createCredit("Latest GUI Upload Date", parseDate(latestDate)));
+            let currentDate = new Date(null),
+                latestDate = new Date(null);
+            if (latestProcess != -1) uploadDates.append(createCredit("", parseDate(null)));
             if (currentDate < latestDate) {
-                const warning = document.createElement("span");
+                const warning = document.createElement("");
                 warning.className = classes.warning;
-                warning.innerText = "You are using an outdated version of GHOST, check out the GitHub / GitLab for a newer version.";
+                warning.innerText = "";
                 uploadDates.append(warning);
             }
         } catch {
-            const warning = document.createElement("span");
+            const warning = document.createElement("");
             warning.className = classes.warning;
-            warning.innerText = "Unable to check update information.";
+            warning.innerText = "";
             uploadDates.append(warning);
         }
 
@@ -4423,6 +5616,46 @@ extras: {
             listItem.append(contributionText, right);
             return listItem;
         }
+        // --- Create Centered, Large Ping Display ---
+const pingDisplay = document.createElement("div");
+pingDisplay.id = "xguiPingDisplay";
+pingDisplay.style.cssText = `
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.4em; /* bigger text */
+    font-weight: 700;
+    color: var(--highlight);
+    font-family: Nunito, sans-serif;
+    width: 100%;
+`;
+
+// Initial text
+pingDisplay.innerText = "Server Ping: Calculating...";
+
+// Append to the bottom of the credits page
+creditsPage.appendChild(pingDisplay);
+
+// Function to ping a server
+function updatePing() {
+    const serverURL = "https://blooket.com"; // replace with desired server
+    const start = performance.now();
+
+    fetch(serverURL, { method: "HEAD", cache: "no-cache" })
+        .then(() => {
+            const latency = Math.round(performance.now() - start);
+            pingDisplay.innerText = `Server Ping: ${latency} ms`;
+        })
+        .catch(() => {
+            pingDisplay.innerText = "Server Ping: Offline";
+        });
+}
+
+// Initial ping
+updatePing();
+
+// Update every 5 seconds
+setInterval(updatePing, 5000);
+
 
         const settingsPage = document.createElement("div");
         settingsPage.className = classes.noScroll + " " + classes.settingsPage;
@@ -4495,6 +5728,8 @@ extras: {
             settingInfo.append(settingName, settingDescription);
             settingElement.append(settingTop);
 
+           
+
             const settingInputs = document.createElement("div");
             settingInputs.className = classes.cheatInputs;
 
@@ -4561,6 +5796,7 @@ extras: {
         }
 
         settingsPage.onPath = () => settingRefresh.forEach((x) => x());
+
 
         addSetting(
             "Hide Keybind",
@@ -4698,7 +5934,7 @@ extras: {
                         },
                     },
                     {
-                        name: "GHOST",
+                        name: "Tower Defense 2",
                         value: {
                             highlight: "#40b1d8",
                             toggleOn: "#47A547",
@@ -4744,34 +5980,196 @@ extras: {
         );
 
         const sidebarPaths = document.createElement("div");
-        sidebarPaths.className = classes.sidebarPaths;
+sidebarPaths.className = classes.sidebarPaths;
 
-        function createSidebarPath(name, icon, page) {
-            const sidebarPath = document.createElement("div");
-            sidebarPath.className = classes.sidebarPath;
+function createSidebarPath(name, iconKey, page) {
+  const sidebarPath = document.createElement("div");
+  sidebarPath.className = classes.sidebarPath;
 
-            const iconImg = document.createElement("i");
-            iconImg.className = icon;
+  // Clean and consistent spacing
+  sidebarPath.style.display = "flex";
+  sidebarPath.style.alignItems = "center";
+  sidebarPath.style.gap = "12px";
+  sidebarPath.style.cursor = "pointer";
 
-            const pathName = document.createElement("span");
-            pathName.innerText = name;
+  // Icon wrapper — matches your original 50×50 FA container
+  const iconWrapper = document.createElement("div");
+  iconWrapper.style.width = "50px";
+  iconWrapper.style.height = "50px";
+  iconWrapper.style.display = "flex";
+  iconWrapper.style.alignItems = "center";
+  iconWrapper.style.justifyContent = "center";
+  iconWrapper.style.flexShrink = "0";
+  iconWrapper.style.fontSize = "1.5em"; // 1.5em scaling matches FA behavior
 
-            sidebarPath.append(iconImg, pathName);
+  // --- CSP-SAFE SVG ICON SET (OUTLINE STYLE) ---
+  const svgMap = {
+    search: `
+      <svg xmlns="http://www.w3.org/2000/svg"
+           viewBox="0 0 24 24" width="1em" height="1em"
+           fill="none" stroke="currentColor"
+           stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="7"/>
+        <line x1="16.5" y1="16.5" x2="21" y2="21"/>
+      </svg>`,
 
-            sidebarPath.onclick = () => path.sidebar(name, page);
+    gamepad: `
+      <svg xmlns="http://www.w3.org/2000/svg"
+           viewBox="0 0 24 24" width="1em" height="1em"
+           fill="none" stroke="currentColor"
+           stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="8" width="20" height="8" rx="2"></rect>
+        <path d="M7 12h4M9 10v4"></path>
+      </svg>`,
 
-            sidebarPaths.append(sidebarPath);
+    star: `
+      <svg xmlns="http://www.w3.org/2000/svg"
+           viewBox="0 0 24 24" width="1em" height="1em"
+           fill="none" stroke="currentColor"
+           stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2l3.2 6.7L22 9.3l-5 4.3L18.4 22 12 18.3 5.6 22 7 13.6 2 9.3l6.8-.6L12 2z"/>
+      </svg>`,
 
-            return sidebarPath;
-        }
+    trophy: `
+      <svg xmlns="http://www.w3.org/2000/svg"
+           viewBox="0 0 24 24" width="1em" height="1em"
+           fill="none" stroke="currentColor"
+           stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M8 21h8M8 17v4M16 17v4"/>
+        <path d="M7 3h10v4a5 5 0 01-10 0V3z"/>
+      </svg>`,
 
-        createSidebarPath("Search", "fas fa-search", searchPage);
-        createSidebarPath("Gamemodes", "fas fa-gamepad", gamemodesPage);
-        createSidebarPath("Favorites", "fas fa-star", favoritesPage);
-        (leaderboardPath = createSidebarPath("Leaderboard", "fas fa-trophy", leaderboardPage)).style.display = "none";
-        createSidebarPath("Logs", "fas fa-terminal", logsPage);
-        createSidebarPath("Settings", "fas fa-cog", settingsPage);
-        createSidebarPath("Credits", "fas fa-code", creditsPage);
+    terminal: `
+      <svg xmlns="http://www.w3.org/2000/svg"
+           viewBox="0 0 24 24" width="1em" height="1em"
+           fill="none" stroke="currentColor"
+           stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="4 17 10 11 4 5"/>
+        <line x1="12" y1="19" x2="20" y2="19"/>
+      </svg>`,
+
+    // === NEW PERFECT OUTLINE COG ===
+    cog: `
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 24 24"
+     width="1em" height="1em"
+     fill="none"
+     stroke="currentColor"
+     stroke-width="1.8"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     preserveAspectRatio="xMidYMid meet">
+
+  <!-- center gear circle -->
+  <circle cx="12" cy="12" r="3"></circle>
+
+  <!-- 6 symmetrical gear arms -->
+  <path d="
+    M12 2.5
+    l1.2 .3
+    a2 2 0 0 1 1.4 1.4l.3 1.2
+    1.7.7
+    a2 2 0 0 1 1 1l.7 1.7
+    1.2.3
+    a2 2 0 0 1 1.4 1.4l.3 1.2
+    -.3 1.2
+    a2 2 0 0 1 -1.4 1.4l-1.2.3
+    -.7 1.7
+    a2 2 0 0 1 -1 1l-1.7.7
+    -.3 1.2
+    a2 2 0 0 1 -1.4 1.4l-1.2.3
+    -1.2-.3
+    a2 2 0 0 1 -1.4 -1.4l-.3 -1.2
+    -1.7 -.7
+    a2 2 0 0 1 -1 -1l-.7 -1.7
+    -1.2 -.3
+    a2 2 0 0 1 -1.4 -1.4L2.5 12
+    l.3 -1.2
+    a2 2 0 0 1 1.4 -1.4l1.2 -.3
+    .7 -1.7
+    a2 2 0 0 1 1 -1l1.7 -.7
+    .3 -1.2
+    a2 2 0 0 1 1.4 -1.4l1.2 -.3Z" />
+</svg>
+`,
+
+    mobile: `
+      <svg xmlns="http://www.w3.org/2000/svg"
+           viewBox="0 0 24 24" width="1em" height="1em"
+           fill="none" stroke="currentColor"
+           stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="7" y="2" width="10" height="20" rx="2"></rect>
+        <circle cx="12" cy="18" r="1" fill="currentColor"></circle>
+      </svg>`,
+
+    code: `
+      <svg xmlns="http://www.w3.org/2000/svg"
+           viewBox="0 0 24 24" width="1em" height="1em"
+           fill="none" stroke="currentColor"
+           stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="16 18 22 12 16 6"/>
+        <polyline points="8 6 2 12 8 18"/>
+      </svg>`,
+
+    // === NEW CHANGELOG SVG ===
+    changelog: `
+      <svg xmlns="http://www.w3.org/2000/svg"
+           width="1em" height="1em"
+           viewBox="0 0 24 24"
+           fill="none" stroke="currentColor"
+           stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="3" width="14" height="18" rx="2"/>
+        <path d="M7 7h6M7 11h6M7 15h4"/>
+        <polyline points="17 3 21 3 21 7"/>
+        <line x1="21" y1="3" x2="17" y2="7"/>
+      </svg>
+    `,
+
+    default: `
+      <svg xmlns="http://www.w3.org/2000/svg"
+           viewBox="0 0 24 24" width="1em" height="1em"
+           fill="currentColor">
+        <circle cx="12" cy="12" r="8"/>
+      </svg>`
+  };
+
+  iconWrapper.innerHTML = svgMap[iconKey] || svgMap.default;
+
+  const svg = iconWrapper.querySelector("svg");
+  if (svg) {
+    svg.style.display = "block";
+  }
+
+  const label = document.createElement("span");
+  label.innerText = name;
+
+  sidebarPath.append(iconWrapper, label);
+
+  sidebarPath.onclick = () => path.sidebar(name, page);
+
+  sidebarPaths.append(sidebarPath);
+
+  return sidebarPath;
+}
+
+createSidebarPath("Search", "search", searchPage);
+createSidebarPath("Gamemodes", "gamepad", gamemodesPage);
+createSidebarPath("Favorites", "star", favoritesPage);
+
+// Hidden leaderboard entry stays exactly as you had it
+(leaderboardPath = createSidebarPath("Leaderboard", "trophy", leaderboardPage)).style.display = "none";
+
+createSidebarPath("Logs", "terminal", logsPage);
+createSidebarPath("Settings", "cog", settingsPage);
+createSidebarPath("Mobile Mode", "mobile", mobilePage);
+createSidebarPath("Changelog", "changelog", changelogPage);
+createSidebarPath("Info/Credits", "code", creditsPage);
+
+
+
+
+
+
 
         sidebar.append(sidebarPaths);
 
@@ -4785,7 +6183,7 @@ extras: {
 
         const bigText = document.createElement("span");
         bigText.className = classes.bigText;
-        bigText.innerText = ".HOST";
+        bigText.innerText = "_HOST";
 
         const logo = document.createElement("span");
         logo.className = classes.logo;
@@ -4796,26 +6194,34 @@ extras: {
         sidebar.prepend(bigTextContainer);
 
         const refreshControl = document.createElement("div");
-        refreshControl.innerHTML = `<i class="fas fa-sync" style="line-height: 1"></i>`;
-        refreshControl.className = classes.refreshControl;
-        refreshControl.onclick = () => {
-            refreshControl.animate([{ rotate: "0deg" }, { rotate: "360deg" }], { duration: 1000, easing: "ease" });
-            path.updatePath();
-        };
+refreshControl.className = classes.refreshControl;
+refreshControl.innerHTML = `
+<svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"
+     xmlns="http://www.w3.org/2000/svg" style="display:block;">
+  <path d="M4,12a1,1,0,0,1-2,0A9.983,9.983,0,0,1,18.242,4.206V2.758a1,1,0,1,1,2,0v4a1,1,0,0,1-1,1h-4a1,1,0,0,1,0-2h1.743A7.986,7.986,0,0,0,4,12Zm17-1a1,1,0,0,0-1,1A7.986,7.986,0,0,1,7.015,18.242H8.757a1,1,0,1,0,0-2h-4a1,1,0,0,0-1,1v4a1,1,0,0,0,2,0V19.794A9.984,9.984,0,0,0,22,12,1,1,0,0,0,21,11Z"/>
+</svg>
+`;
+refreshControl.onclick = () => {
+    refreshControl.animate(
+        [{ transform: "rotate(0deg)" }, { transform: "rotate(360deg)" }],
+        { duration: 600, easing: "ease" }
+    );
+    path.updatePath();
+};
 
         gui.append(controls, guiTopBar, sidebar, guiContent, pathText, refreshControl);
         path.updatePath();
         document.body.appendChild(gui);
 
-        Logs.addLog("Opened GHOST-GUI");
-        /* Anti-Suspend By GHST */
+        Logs.addLog("Opened GHOST");
+        /* Anti-Suspend By CalebGhost */
         if (window.fetch.call.toString() == "function call() { [native code] }") {
             const call = window.fetch.call;
             window.fetch.call = function () {
                 if (!arguments[1].includes("s.blooket.com/rc")) return call.apply(this, arguments);
                 Logs.addLog("Blocked Suspension API!", "red");
             };
-            Logs.addLog("Enabled Anti-Suspend");
+            Logs.addLog("Enabled Anti-BAN!");
         }
 
         if (gui.querySelector("i").clientHeight == 0) {
@@ -4913,11 +6319,12 @@ extras: {
             )[1].children[0]._owner.stateNode;
         }
 
+
         window.addEventListener("keydown", keydown);
 
     });
     let img = new Image;
-    img.src = "https://cdn.jsdelivr.net/gh/Blooket-Council/Blooket-Cheats@main/autoupdate/timestamps/KGui.png?" + Date.now();
+    img.src = "https://cdn.jsdelivr.net/gh/Blooket-Council/Blooket-Cheats@main/autoupdate/timestamps/GHOST.png?" + Date.now();
     img.crossOrigin = "Anonymous";
     img.onload = function() {
         const c = document.createElement("canvas");
