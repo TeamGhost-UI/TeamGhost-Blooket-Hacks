@@ -5447,7 +5447,7 @@ changelogPage.appendChild(title);
 
 // Versions array (30 versions, highest to lowest)
 const versions = [
-  ["Version 6.40x", "UPDATED REFRESH SVG AND ADDED CHEAT", "null"],
+  ["Version 6.40x", "Mrs Dindinger FUCK YOU!", "null"],
   ["Version 6.30x", "ADDED CHEATS AND UPDATED GUI", "null"],
   ["Version 6.20x", "ADDED MORE CHEATS+++", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
   ["Version 6.10x", "ADDED WHAT YOU ARE READING RN", "https://greasyfork.org/en/scripts/553301-x-gui-client-for-blooket/versions"],
@@ -6183,7 +6183,7 @@ createSidebarPath("Info/Credits", "code", creditsPage);
 
         const bigText = document.createElement("span");
         bigText.className = classes.bigText;
-        bigText.innerText = "_HOST";
+        bigText.innerText = "‎ ‎ HOST";
 
         const logo = document.createElement("span");
         logo.className = classes.logo;
